@@ -1,0 +1,82 @@
+{
+  "name": "pob-test-repository",
+  "version": "0.0.0",
+  "description": "Pob test repo",
+  "keywords": [],
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
+  "license": "ISC",
+  "repository": "git@github.com:christophehurpeau/pob-test-repository.git",
+  "homepage": "https://github.com/christophehurpeau/pob-test-repository",
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "build": "pob-build",
+    "clean": "rm -Rf docs dist",
+    "commitmsg": "commitlint -x @commitlint/config-conventional -e $GIT_PARAMS",
+    "flow": "flow",
+    "generate:api": "pob-build-doc",
+    "generate:docs": "yarn run generate:api && yarn run generate:test-coverage",
+    "generate:test-coverage": "rm -Rf docs/coverage/ ; NODE_ENV=production BABEL_ENV=test jest --coverage --coverageReporters=lcov --coverageDirectory=docs/coverage/",
+    "lint": "eslint src/",
+    "postcheckout": "yarnhook",
+    "postmerge": "yarnhook",
+    "postrewrite": "yarnhook",
+    "precommit": "./.git-hooks/pre-commit",
+    "preversion": "yarn run lint && yarn run build && pob-repository-check-clean",
+    "release": "pob-repository-check-clean && pob-release",
+    "test": "jest",
+    "version": "pob-version",
+    "watch": "pob-watch"
+  },
+  "lint-staged": {
+    "package.json": [
+      "prettier --write",
+      "git add"
+    ],
+    "lib/**/*.json": [
+      "prettier --write",
+      "git add"
+    ],
+    "lib/**/*.js": [
+      "eslint --fix --quiet",
+      "git add"
+    ]
+  },
+  "jest": {
+    "cacheDirectory": "./node_modules/.cache/jest",
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.js",
+      "<rootDir>/src/**/*.test.js"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^6.1.2",
+    "@commitlint/config-conventional": "^6.1.2",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^22.2.2",
+    "babel-preset-latest-node": "^1.0.0",
+    "eslint": "4.13.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-pob": "^17.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "husky": "^0.14.3",
+    "jest": "^22.3.0",
+    "jest-junit-reporter": "^1.1.0",
+    "jsdoc": "^3.5.5",
+    "lint-staged": "^7.0.0",
+    "minami": "^1.1.1",
+    "pob-babel": "^19.1.2",
+    "pob-release": "^3.1.0",
+    "prettier": "^1.9.2",
+    "yarnhook": "^0.1.1"
+  }
+}
