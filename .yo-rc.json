@@ -1,0 +1,31 @@
+{
+  "pob": {
+    "promptValues": {
+      "authorName": "Christophe Hurpeau",
+      "authorEmail": "christophe@hurpeau.com",
+      "authorUrl": "https://christophe.hurpeau.com"
+    },
+    "pob-config": {
+      "entries": [
+        "index"
+      ],
+      "documentation": {
+        "doclets": false
+      },
+      "testing": {
+        "circleci": true,
+        "travisci": true,
+        "codecov": false
+      },
+      "envs": [
+        {
+          "target": "node",
+          "version": "8",
+          "formats": [
+            "cjs"
+          ]
+        }
+      ]
+    }
+  }
+}
