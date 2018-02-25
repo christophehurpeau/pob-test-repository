@@ -35,11 +35,11 @@
       "prettier --write",
       "git add"
     ],
-    "lib/**/*.json": [
+    "src/**/*.json": [
       "prettier --write",
       "git add"
     ],
-    "lib/**/*.js": [
+    "src/**/*.js": [
       "eslint --fix --quiet",
       "git add"
     ]
