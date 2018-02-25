@@ -1,5 +1,7 @@
 # pob-test-repository [![NPM version][npm-image]][npm-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/christophehurpeau/pob-test-repository.svg)](https://greenkeeper.io/)
+
 Pob test repo
 
 [![Build Status][circleci-status-image]][circleci-status-url]
