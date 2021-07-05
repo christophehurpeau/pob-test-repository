@@ -5,27 +5,19 @@
       "authorEmail": "christophe@hurpeau.com",
       "authorUrl": "https://christophe.hurpeau.com"
     },
-    "pob-config": {
-      "entries": [
-        "index"
-      ],
-      "documentation": {
-        "doclets": false
-      },
+    "project": {
+      "type": "lib",
+      "yarn2": true
+    },
+    "renovate": {
+      "enable": true
+    },
+    "lib": {
+      "documentation": true,
       "testing": {
-        "circleci": true,
-        "travisci": true,
-        "codecov": false
-      },
-      "envs": [
-        {
-          "target": "node",
-          "version": "8",
-          "formats": [
-            "cjs"
-          ]
-        }
-      ]
+        "codecov": false,
+        "ci": true
+      }
     }
   }
 }

@@ -1,18 +1,27 @@
-/git-hooks
+/.github
+/build
+/docs
 /examples
 /samples
-/docs
-/build
 /test
-.yo-rc.json
-.travis.yml
-circle.yml
+/*.config.js
+/tsconfig.json
+/tsconfig.build.json
+/dist/tsbuildinfo
+/tsconfig.doc.json
+babel.config.json
 .codeclimate.yml
-jsdoc.config.json
+.yo-rc.json
+/renovate.json
+/yarn.lock
+/.yarn
+/.yarnrc.yml
+/.pnp.js
 
 /.settings
 /.project
 /.idea
+/.vscode
 *.sublime-project
 *.sublime-workspace
 

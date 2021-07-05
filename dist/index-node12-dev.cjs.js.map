@@ -1,0 +1,1 @@
+{"version":3,"file":"index-node12-dev.cjs.js","sources":["../src/index.ts"],"sourcesContent":["export const sayHello = () => console.log('hello');\n"],"names":["sayHello","console","log"],"mappings":";;;;MAAaA,QAAQ,GAAG,MAAMC,OAAO,CAACC,GAAR,CAAY,OAAZ;;;;"}

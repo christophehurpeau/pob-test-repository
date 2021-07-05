@@ -1,3 +1,5 @@
 {
-  "extends": "pob/babel"
+  "root": true,
+  "extends": ["@pob/eslint-config/root", "@pob/eslint-config-node"],
+  "ignorePatterns": ["/dist"]
 }
