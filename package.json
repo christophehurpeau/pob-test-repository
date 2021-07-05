@@ -94,7 +94,7 @@
     "@pob/eslint-config-node": "43.2.0",
     "@pob/eslint-config-typescript": "43.2.0",
     "@pob/eslint-config-typescript-node": "43.2.0",
-    "@pob/root": "4.0.0",
+    "@pob/root": "4.1.0",
     "@types/jest": "26.0.23",
     "@typescript-eslint/eslint-plugin": "4.28.2",
     "@typescript-eslint/parser": "4.28.2",
