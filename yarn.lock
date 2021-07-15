@@ -5950,7 +5950,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.11, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.17.21, lodash@npm:^4.7.0":
+"lodash@npm:^4.17.11, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.7.0":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: 4983720b9abca930a4a46f18db163d7dad8dd00dbed6db0cc7b499b33b717cce69f80928b27bbb1ff2cbd3b19d251ee90669a8b5ea466072ca81c2ebe91e7468
@@ -7035,7 +7035,7 @@ __metadata:
     prettier: 2.3.2
     rollup: 2.53.2
     standard-version: 9.3.1
-    typedoc: 0.21.2
+    typedoc: 0.21.4
     typescript: 4.3.5
   languageName: unknown
   linkType: soft
@@ -8500,13 +8500,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typedoc@npm:0.21.2":
-  version: 0.21.2
-  resolution: "typedoc@npm:0.21.2"
+"typedoc@npm:0.21.4":
+  version: 0.21.4
+  resolution: "typedoc@npm:0.21.4"
   dependencies:
     glob: ^7.1.7
     handlebars: ^4.7.7
-    lodash: ^4.17.21
     lunr: ^2.3.9
     marked: ^2.1.1
     minimatch: ^3.0.0
@@ -8517,7 +8516,7 @@ __metadata:
     typescript: 4.0.x || 4.1.x || 4.2.x || 4.3.x
   bin:
     typedoc: bin/typedoc
-  checksum: 5d9a29b93d8a5904e92f5cd2422bc719ac2a757f00afcd8d4f6597d24cf35037477d05469c1aa83f4b5d4c67582c8079230bd8ed64a5b0e5e849f152a9419487
+  checksum: 109d93b11a6e2b34d6ed9bad648c4089e26f3c2771cb7d65f837f1b605260752e4e0d7b6d35bf613f2dd0fbc431058bdc4cd75ad9fedce4741c4992b00a21dfa
   languageName: node
   linkType: hard
 
