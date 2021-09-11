@@ -88,7 +88,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "7.15.0",
+    "@babel/core": "7.15.5",
     "@pob/commitlint-config": "2.2.0",
     "@pob/eslint-config": "43.2.0",
     "@pob/eslint-config-node": "43.2.0",
