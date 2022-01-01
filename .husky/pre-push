@@ -1,1 +1,4 @@
-CI=true yarn test
+#!/usr/bin/env sh
+. "$(dirname "$0")/_/husky.sh"
+
+CI=true yarn test && yarn run checks

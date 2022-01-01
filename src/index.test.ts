@@ -1,4 +1,6 @@
-import { sayHello } from '..';
+// eslint-disable-next-line import/no-extraneous-dependencies, node/no-extraneous-import
+import { jest } from '@jest/globals';
+import { sayHello } from '.';
 
 test('sayHello should say "hello"', () => {
   const logMock = jest.spyOn(console, 'log').mockImplementation(() => {});
