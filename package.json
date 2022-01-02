@@ -11,7 +11,7 @@
   "engines": {
     "node": "^14.13.1 || >=16.0.0"
   },
-  "main": "./dist/index-node14.cjs.js",
+  "main": "./dist/index-node14.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     "./package.json": "./package.json",
@@ -33,7 +33,7 @@
     "generate:docs": "rm -Rf docs ; yarn run generate:api ; touch docs/.nojekyll && yarn run generate:test-coverage",
     "generate:test-coverage": "rm -Rf docs/coverage/ ; NODE_ENV=production BABEL_ENV=test NODE_OPTIONS=--experimental-vm-modules jest --coverage --coverageReporters=pob-lcov-reporter --coverageDirectory=docs/coverage/",
     "lint": "yarn run lint:prettier && tsc && yarn run lint:eslint",
-    "lint:eslint": "eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet *.{js,cjs,mjs} src",
+    "lint:eslint": "eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet *.{js,cjs,mjs} src scripts",
     "lint:prettier": "prettier --check .",
     "postinstallDev": "pob-root-postinstall",
     "preversion": "yarn run lint && yarn run build && yarn run generate:docs && repository-check-dirty",
