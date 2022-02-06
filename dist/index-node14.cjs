@@ -9,4 +9,4 @@ const aParticularlyLongAndObnoxiousNameForIllustrativePurposes = 44;
 
 exports.aParticularlyLongAndObnoxiousNameForIllustrativePurposes = aParticularlyLongAndObnoxiousNameForIllustrativePurposes;
 exports.sayHello = sayHello;
-//# sourceMappingURL=index-node14.cjs.js.map
+//# sourceMappingURL=index-node14.cjs.map
