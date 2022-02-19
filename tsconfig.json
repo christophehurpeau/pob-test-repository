@@ -2,7 +2,6 @@
   "include": ["src/**/*.ts"],
   "compilerOptions": {
     "rootDir": "src",
-    "incremental": true,
     /* No emit in default config file. See build config file for config to build declaration files */
     "noEmit": true,
 
