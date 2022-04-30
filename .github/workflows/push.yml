@@ -59,3 +59,11 @@ jobs:
       - name: Check nothing was forgotten before commit
         if: startsWith(matrix.node-version, '16.')
         run: yarn run repository-check-dirty
+
+      - uses: GoogleCloudPlatform/release-please-action@v3
+        if: ${{ startsWith(matrix.node-version, '16.') && github.ref == 'refs/heads/main' }}
+        id: release
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          release-type: node
+          package-name: release-please-action
