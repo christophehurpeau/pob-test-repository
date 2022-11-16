@@ -4,4 +4,4 @@ const sayHello = () => {
 const aParticularlyLongAndObnoxiousNameForIllustrativePurposes = 44;
 
 export { aParticularlyLongAndObnoxiousNameForIllustrativePurposes, sayHello };
-//# sourceMappingURL=index-node14.mjs.map
+//# sourceMappingURL=index-node16.mjs.map
