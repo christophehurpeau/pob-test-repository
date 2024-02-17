@@ -8,11 +8,14 @@ jobs:
   create-documentation-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 20
+
+      - name: Enable Corepack
+        run: corepack enable
 
       - name: Install Dependencies
         run: yarn install --immutable --immutable-cache
@@ -24,7 +27,7 @@ jobs:
         run: yarn typedoc --tsconfig tsconfig.doc.json
 
       - name: Generate Coverage
-        run: yarn test --coverage --coverageReporters=lcov --coverageDirectory=docs/coverage/
+        run: yarn test:coverage:lcov --coverageDirectory=docs/coverage/
 
       - name: Create nojekyll
         run: touch docs/.nojekyll
