@@ -27,7 +27,7 @@ npm install --save pob-test-repository
 ## Usage
 
 ```js
-import pobTestRepository from 'pob-test-repository';
+import pobTestRepository from "pob-test-repository";
 
 console.log(pobTestRepository);
 ```
