@@ -1,6 +1,6 @@
 export const sayHello = (): void => {
-  console.log('hello');
+  console.log("hello");
 };
 
 export const aParticularlyLongAndObnoxiousNameForIllustrativePurposes =
-  'a very long string for illustrative purposes'.length;
+  "a very long string for illustrative purposes".length;
