@@ -6857,9 +6857,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pob-babel@npm:41.0.0":
-  version: 41.0.0
-  resolution: "pob-babel@npm:41.0.0"
+"pob-babel@npm:41.0.1":
+  version: 41.0.1
+  resolution: "pob-babel@npm:41.0.1"
   dependencies:
     "@babel/core": "npm:^7.23.2"
     "@babel/plugin-transform-runtime": "npm:7.24.7"
@@ -6882,7 +6882,7 @@ __metadata:
   bin:
     pob-babel-clean-out: ./bin/pob-babel-clean-out.js
     rollup: ./bin/rollup.cjs
-  checksum: 10c0/03964a13d02e66e1494c2d22547a15a55fdf26dc59b65d0ebe4e9f134b159308aaf651c7825715507c939d28b67d444f50e29459fe4f3850fbc3ac3273a02ba6
+  checksum: 10c0/78a4c8cf4980ffa1afa024245f2dcd970fa68ea2a7b8083b0391b47009b2c07a8567388af264110f4f4726502f1942a1381a28f125b31781704628a21997f14a
   languageName: node
   linkType: hard
 
@@ -6906,7 +6906,7 @@ __metadata:
     check-package-dependencies: "npm:7.2.0"
     eslint: "npm:8.57.0"
     jest: "npm:29.7.0"
-    pob-babel: "npm:41.0.0"
+    pob-babel: "npm:41.0.1"
     typedoc: "npm:0.26.5"
     typescript: "npm:5.5.4"
   languageName: unknown
