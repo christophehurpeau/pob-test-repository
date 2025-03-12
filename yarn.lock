@@ -40,7 +40,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.26.10, @babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.26.7":
+"@babel/core@npm:7.26.10, @babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.26.9":
   version: 7.26.10
   resolution: "@babel/core@npm:7.26.10"
   dependencies:
@@ -410,19 +410,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-runtime@npm:7.25.9":
-  version: 7.25.9
-  resolution: "@babel/plugin-transform-runtime@npm:7.25.9"
+"@babel/plugin-transform-runtime@npm:7.26.9":
+  version: 7.26.9
+  resolution: "@babel/plugin-transform-runtime@npm:7.26.9"
   dependencies:
     "@babel/helper-module-imports": "npm:^7.25.9"
-    "@babel/helper-plugin-utils": "npm:^7.25.9"
+    "@babel/helper-plugin-utils": "npm:^7.26.5"
     babel-plugin-polyfill-corejs2: "npm:^0.4.10"
     babel-plugin-polyfill-corejs3: "npm:^0.10.6"
     babel-plugin-polyfill-regenerator: "npm:^0.6.1"
     semver: "npm:^6.3.1"
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: 10c0/888a4998ba0a2313de347954c9a8dfeccbff0633c69d33aee385b8878eba2b429dbfb00c3cc04f6bca454b9be8afa01ebbd73defb7fbbb6e2d3086205c07758b
+  checksum: 10c0/2c4d77d0671badc7fd53dcd7015df5db892712436c7e9740ffb2f5b85e8591e5bfe208f78dff402b4ee2d55d0f7a3c0a1102c683f333f4ee0cfa62f68ea68842
   languageName: node
   linkType: hard
 
@@ -2721,9 +2721,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-pob-env@npm:15.1.0":
-  version: 15.1.0
-  resolution: "babel-preset-pob-env@npm:15.1.0"
+"babel-preset-pob-env@npm:15.2.1":
+  version: 15.2.1
+  resolution: "babel-preset-pob-env@npm:15.2.1"
   dependencies:
     "@babel/plugin-transform-modules-commonjs": "npm:^7.26.3"
     "@babel/preset-typescript": "npm:^7.26.0"
@@ -2732,7 +2732,7 @@ __metadata:
     babel-preset-optimizations: "npm:^2.0.0"
   peerDependencies:
     "@babel/core": ^7.23.2
-  checksum: 10c0/8bbe11bbcfdcbe598bf30d39ae0c4625f1b0de2e71ad3f4c0c5b691ee4a80174cdfb8edb0bdc1c5be2ff043ed1bc635ac5412d8bdc408965bcb22e1bb6b20442
+  checksum: 10c0/5972c506cd193ba4eb8950961e47505ed4bd50b5bf8d150a0a8222bd3935fd2fa357ceeca3baa5b4d7a719c6f39cefa9c6faa37063d25ed989fd3bf9678ddfb5
   languageName: node
   linkType: hard
 
@@ -6951,23 +6951,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pob-babel@npm:43.1.0":
-  version: 43.1.0
-  resolution: "pob-babel@npm:43.1.0"
+"pob-babel@npm:43.3.0":
+  version: 43.3.0
+  resolution: "pob-babel@npm:43.3.0"
   dependencies:
-    "@babel/core": "npm:^7.26.7"
-    "@babel/plugin-transform-runtime": "npm:7.25.9"
+    "@babel/core": "npm:^7.26.9"
+    "@babel/plugin-transform-runtime": "npm:7.26.9"
     "@pob/rollup": "npm:6.1.0"
     "@rollup/plugin-babel": "npm:6.0.4"
     "@rollup/plugin-json": "npm:6.1.0"
     "@rollup/plugin-node-resolve": "npm:16.0.0"
     "@rollup/plugin-run": "npm:3.1.0"
-    babel-preset-pob-env: "npm:15.1.0"
+    babel-preset-pob-env: "npm:15.2.1"
     rollup: "npm:4.33.0"
     rollup-config-external-dependencies: "npm:^3.0.1"
     semver: "npm:^7.3.7"
   peerDependencies:
-    "@babel/core": ^7.26.7
+    "@babel/core": ^7.26.9
     rollup: 4.33.0
     typescript: ^4.0.3 || ^5.0.0
   peerDependenciesMeta:
@@ -6976,7 +6976,7 @@ __metadata:
   bin:
     pob-babel-clean-out: ./bin/pob-babel-clean-out.js
     rollup: ./bin/rollup.cjs
-  checksum: 10c0/0e4afd74c81105e3f0f406b6f22d52764112efa761351461799d1ad6c4beb233247f380009a2e42457b2f8109f3bd39dfc7345d18482d9fb578bb069e5adc939
+  checksum: 10c0/054419762f4f4634d8f5d0fff1bdb65fac8abaa1f2f29adac44cfbd4c1e7490df35503778204f123e2e5042bd4ef02c6c1ff655aa82dde286c6fe2fb86408f2a
   languageName: node
   linkType: hard
 
@@ -7000,7 +7000,7 @@ __metadata:
     check-package-dependencies: "npm:9.1.0"
     eslint: "npm:9.22.0"
     jest: "npm:29.7.0"
-    pob-babel: "npm:43.1.0"
+    pob-babel: "npm:43.3.0"
     typedoc: "npm:0.27.9"
     typescript: "npm:5.7.3"
   languageName: unknown
