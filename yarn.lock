@@ -516,7 +516,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^19.7.1":
+"@commitlint/config-conventional@npm:^19.8.0":
   version: 19.8.0
   resolution: "@commitlint/config-conventional@npm:19.8.0"
   dependencies:
@@ -1429,12 +1429,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/commitlint-config@npm:9.1.1":
-  version: 9.1.1
-  resolution: "@pob/commitlint-config@npm:9.1.1"
+"@pob/commitlint-config@npm:9.1.2":
+  version: 9.1.2
+  resolution: "@pob/commitlint-config@npm:9.1.2"
   dependencies:
-    "@commitlint/config-conventional": "npm:^19.7.1"
-  checksum: 10c0/51b0bac9a414e009477ad9f0cb7e58d43af72b57a71ca63644616d0bf967d676dd68e32f91d5920c8a27badfab9aa0a482fbc01410570a8879873b53b282e604
+    "@commitlint/config-conventional": "npm:^19.8.0"
+  checksum: 10c0/8de56ae231411786c913e2af3073c71d2c765fd1182f98554c68262b478dc6bc77dc6cd522d35818bf8d7ead7e0c65d3ab26d3c32fcc5f596ebd62b999c5828c
   languageName: node
   linkType: hard
 
@@ -6978,7 +6978,7 @@ __metadata:
   resolution: "pob-test-repository@workspace:."
   dependencies:
     "@babel/core": "npm:7.26.10"
-    "@pob/commitlint-config": "npm:9.1.1"
+    "@pob/commitlint-config": "npm:9.1.2"
     "@pob/eslint-config": "npm:59.8.1"
     "@pob/eslint-config-typescript": "npm:59.8.1"
     "@pob/root": "npm:16.3.0"
